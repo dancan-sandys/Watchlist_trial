@@ -28,7 +28,7 @@ def create_app(config_name):
     # setting config
     from .requests import configure_request
     configure_request(app)
-
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
 
