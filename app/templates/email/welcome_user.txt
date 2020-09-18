@@ -1,0 +1,3 @@
+Hello{{user.username}}
+Welcome to watchlist
+You have sessfully signed up into our application. Enjoy all he films and reviews 
